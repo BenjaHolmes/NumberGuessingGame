@@ -1,6 +1,6 @@
 # NumberGuessingGame
 
-This is a small project in which a user can attempt to guess a randomly selected number 3 times. 
+This is a small project in which a user can attempt to guess a randomly selected number 5 times. 
 Incorrect guesses are crossed out and turn red, while a correct guess becomes green and will end the game.
 
 ## Site in Action
