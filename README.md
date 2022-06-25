@@ -1,4 +1,4 @@
-# NumberGuessingGame
+# Number Guessing Game
 
 This is a small project in which a user can attempt to guess a randomly selected number 5 times. 
 Incorrect guesses are crossed out and turn red, while a correct guess becomes green and will end the game.
