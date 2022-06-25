@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Guesser!</title>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="title">Guess the Hidden Number!</h1>
+    </div>
+    <div class="main">
+      <div class="answer">
+        <h2>Your Guess is ....</h2>
+        <h1 id="answerCheck"></h1>
+
+        <h3 id="livesRem">Lives Remaining : 5</h3>
+      </div>
+      <div class="answer2">
+        <div class="number-block">
+          <h2 id="1">1</h2>
+          <h2 id="2">2</h2>
+          <h2 id="3">3</h2>
+          <h2 id="4">4</h2>
+          <h2 id="5">5</h2>
+          <h2 id="6">6</h2>
+          <h2 id="7">7</h2>
+          <h2 id="8">8</h2>
+          <h2 id="9">9</h2>
+          <h2 id="10">10</h2>
+        </div>
+      </div>
+      <div class="guess">
+        <label for="number"> Guess a Number </label>
+        <input
+          type="number"
+          id="userGuess"
+          name="number"
+          min="1"
+          max="10"
+        /><br />
+        <button type="button" id="submit">
+          Guess
+        </button>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
